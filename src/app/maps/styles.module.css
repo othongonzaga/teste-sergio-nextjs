@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.mapContainer {
+  flex: 1;
+  background-color: var(--background);
+}

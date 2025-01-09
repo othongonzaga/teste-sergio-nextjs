@@ -1,0 +1,26 @@
+:root {
+    --background-light: #f3f4f6;
+    --component-light: #ffffff;
+    --sidebar-light: #0f172a;
+    --icon-light: #1d4ed8;
+  
+    --background-dark: rgb(5, 17, 57);
+    --component-dark: rgb(17, 28, 68);
+    --sidebar-dark: rgb(17, 28, 68);
+    --icon-dark: #1d4ed8;
+  }
+  
+  body.light-mode {
+    --background: var(--background-light);
+    --component: var(--component-light);
+    --sidebar: var(--sidebar-light);
+    --icon: var(--icon-light);
+  }
+  
+  body.dark-mode {
+    --background: var(--background-dark);
+    --component: var(--component-dark);
+    --sidebar: var(--sidebar-dark);
+    --icon: var(--icon-dark);
+  }
+  
