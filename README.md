@@ -93,7 +93,7 @@ src/
     yarn install
 3. Rodar projeto:
     ```bash
-    npm run deve
+    npm run dev
     ou
     yarn dev
 
