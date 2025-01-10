@@ -17,9 +17,9 @@
   .toggleButton {
     position: absolute;
     top: 1rem;
-    right: 1rem; /* Posiciona o botão no lado direito */
+    right: 1rem; 
     background-color: transparent;
-    color: var(--icon-light); /* Define a cor do ícone */
+    color: var(--icon-light); 
     border: none;
     cursor: pointer;
     font-size: 24px;

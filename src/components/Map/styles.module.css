@@ -1,6 +1,6 @@
 .mapContainer {
     width: 100%;
-    height: calc(100vh - 60px); /* Ajuste o valor do 60px conforme necessário */
+    height: calc(100vh - 60px);
   }
   
   .popupContent {
