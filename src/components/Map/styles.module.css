@@ -1,0 +1,28 @@
+.mapContainer {
+    width: 100%;
+    height: calc(100vh - 60px); /* Ajuste o valor do 60px conforme necessário */
+  }
+  
+  .popupContent {
+    text-align: center;
+  }
+  
+  .popupImage {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .popupButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .popupButton:hover {
+    background-color: #0056b3;
+  }
+  

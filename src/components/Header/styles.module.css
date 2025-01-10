@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--component);
+    z-index: 1000;
+  }
+  
+  .themeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon {
+    color: var(--icon-light);
+  }
+  
+  .whiteText {
+    color: white;
+  }
+  

@@ -1,9 +1,39 @@
 .container {
   display: flex;
+  flex-direction: column;
   height: 100vh;
-}
-
-.mapContainer {
-  flex: 1;
   background-color: var(--background);
 }
+
+.mainContent {
+  display: flex;
+  flex: 1;
+  margin-top: 60px; /* Distancia o conteúdo do Header */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: var(--sidebar);
+}
+
+.mapWrapper {
+  flex: 1;
+  margin: 2rem;
+  height: 400px; /* Reduz o tamanho do mapa */
+  background-color: var(--background);
+  position: relative;
+}
+
+.mapWrapper > :global(.leaflet-container) {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--component);
+}
+

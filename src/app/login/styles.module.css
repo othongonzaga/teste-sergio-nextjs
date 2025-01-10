@@ -24,7 +24,7 @@
 
 .button {
   background-color: var(--icon);
-  color: white;
+  color: var(--text-light);
   border: none;
   padding: 0.75rem;
   width: 100%;
