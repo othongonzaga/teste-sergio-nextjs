@@ -3,12 +3,11 @@ import 'leaflet/dist/leaflet.css';
 import styles from './styles.module.css';
 
 export default function Map() {
-  // Coordenadas de Recife (Pernambuco)
-  const position: [number, number] = [-8.0476, -34.8770]; // Coordenadas de Recife
+  const position: [number, number] = [-8.0476, -34.8770];
 
   return (
     <MapContainer
-      center={position} // Usando as coordenadas com o tipo LatLngTuple
+      center={position} 
       zoom={13}
       className={styles.mapContainer}
     >
